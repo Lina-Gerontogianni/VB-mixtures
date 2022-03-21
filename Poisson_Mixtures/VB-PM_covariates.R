@@ -13,7 +13,7 @@ ldet <- function(l)
   determinant(l,logarithm = TRUE)$modulus
 }
 logsumexp <- function(y) 
-{
+{ 
   # Computes log(sum(exp(x))
   l <- max(y)
   lse <- log(sum(exp(y-l))) + l
