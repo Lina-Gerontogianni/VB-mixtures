@@ -9,7 +9,7 @@
   ## lse: safe log sum exp value
 logsumexp <- function(y) 
   {
-  
+   
   # Computes log(sum(exp(x))
   a <- max(y)
   lse <- log(sum(exp(y-a))) + a
