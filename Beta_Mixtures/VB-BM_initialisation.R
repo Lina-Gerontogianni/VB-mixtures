@@ -79,7 +79,7 @@ init.parameters <- function(X, M, a_0, alpha_0, beta_0, mu_0, eta_0)
 }
 ##############----------------------------------------------------------------------------------------------
 #### save the initial variational parameters for the specific dataset (to be passed into the main VB function later)
-init.p <- init.parameters(data, M, a_0, alpha_0, beta_0, mu_0, eta_0)
+init.p <- init.parameters(data, M, a_0, alpha_0, beta_0, mu_0, eta_0) 
 ## the saved items
 alpha <- init.p$alpha
 beta <- init.p$beta
