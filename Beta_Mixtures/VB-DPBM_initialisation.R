@@ -80,7 +80,7 @@ init.parameters <- function(X, M, phi_0, alpha_0, beta_0, mu_0, eta_0)
 init.p <- init.parameters(data, M, phi_0, alpha_0, beta_0, mu_0, eta_0)
 ## the saved items
 alpha <- init.p$alpha
-beta <- init.p$beta
+beta <- init.p$beta 
 mu <- init.p$mu
 eta <- init.p$eta
 # Kmeans results
