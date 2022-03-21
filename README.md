@@ -7,7 +7,7 @@ Four model types are coded: Gaussian mixtures, Beta, Binomial and Poisson. Each 
 - initialisation of the variational algorithm
 - the main variational algorithm
 
-The discriminative accuraccy measure and the forward selection algorithm to compute it is also given for the Beta model. It can be modified accordingly for each model type.
+The discriminative accuracy function and the forward selection algorithm to compute the accuracy of the possible feature sets are also given for the Beta model. These functions can be modified accordingly for each model type by changing the likelihood.
 
 
 
