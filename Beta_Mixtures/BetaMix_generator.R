@@ -1,7 +1,7 @@
 ##############----------------------------------------------------------------------------------------------
 #### generate data from a Beta mixture model
 # inputs: 
-  ## N: number of observations 
+  ## N: number of observations
   ## prob: vector of the weights 
   ## D: number of dimensions
 # output: 
