@@ -152,7 +152,7 @@ pel <- pel + theme(
   axis.title.y=element_text(size=16,face="bold", colour = "royalblue"),
   plot.title = element_text(size=14,face="bold") 
 )
-print(pel)
+print(pel) 
 
 # final component weights (discard those with weight < 0.003)
 var_weights <- model_dppois$pi_M[model_dppois$pi_M>0.003]
