@@ -7,7 +7,7 @@
   ## y: scalar
 # output: 
   ## lse: safe log sum exp value
-logsumexp <- function(y) 
+logsumexp <- function(y)  
   {
   
   # Computes log(sum(exp(x))
