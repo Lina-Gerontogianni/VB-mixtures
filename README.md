@@ -2,7 +2,7 @@
 
 Model-based clustering by Dirichlet Process or Finite Mixture models
 
-Four model types are coded: Gaussian mixtures, Beta, Binomial and Poisson. Each section provides:
+Four types of model are coded: Gaussian mixtures, Beta, Binomial and Poisson. Each section provides:
 - simulator of mixture data
 - initialisation of the variational algorithm
 - the main variational algorithm
