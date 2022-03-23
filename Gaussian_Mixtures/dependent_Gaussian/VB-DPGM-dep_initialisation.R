@@ -94,7 +94,7 @@ init.parameters <- function(X, M, phi_0, theta_0, beta_0, W_0, nu_0)
     # Kmeans results are used to compute the initial r matrix
     r[n, kmeans.clusters[n]] <- 1
   }
-  
+   
   Ns <- colSums(r, na.rm=TRUE)
   
   # for the stick-breaking point variational parameters their closed form equations are used 
