@@ -231,7 +231,7 @@ pi_M_f <- rep(0, M)
 for (i in 1:M)
 {
   pi_M_f[i] <- lambda[i] * prod(head(1-lambda, i-1))
-}
+} 
 pi_M<-round(pi_M_f[pi_M_f>1e-2], 3)
 
 # the final variational weights
