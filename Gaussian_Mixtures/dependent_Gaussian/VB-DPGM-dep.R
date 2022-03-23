@@ -258,5 +258,5 @@ print(pel)
 # final component weights (discard those with weight < 0.001)
 var_weights <- model$pi[model$pi>0.007]
 cat("Variational weights", var_weights, "\n")
-round(var_weights,3)
+round(var_weights,3) 
 
