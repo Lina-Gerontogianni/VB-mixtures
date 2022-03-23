@@ -109,7 +109,7 @@ init.p <- init.parameters(data, M, phi_0, alpha_0, beta_0, m_0, s2_0)
 ## the saved items
 alpha <- init.p$alpha
 beta <- init.p$beta
-s2 <- init.p$s2
+s2 <- init.p$s2 
 
 # Kmeans results
 p <- init.p$p; q <- init.p$q
