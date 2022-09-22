@@ -6,6 +6,7 @@
   ## D: number of dimensions
 # output: 
   ## an NxD matrix of Beta Mixture Model
+
 bmm_generator <- function(N, prob, D)
 {
   M <- length(prob)
