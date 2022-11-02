@@ -1,5 +1,4 @@
 # VBmixtures
-
 Model-based clustering by Dirichlet Process or Finite Mixture models. Mean Field approximation is utilised for inference.
 
 Four types of model are coded: Gaussian mixtures, Beta, Binomial and Poisson. Each section provides:
