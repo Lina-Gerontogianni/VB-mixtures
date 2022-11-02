@@ -8,7 +8,8 @@ Four types of model are studied: Gaussian mixtures, Beta, Binomial and Poisson. 
 
 The discriminative accuracy function and the forward selection algorithm to compute the accuracy of the feature sets are also given for the Beta model. These functions can be modified accordingly for each model type by changing the likelihood.
 
-
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
